@@ -6,7 +6,9 @@
 .container{
     display: flex;
     width: 70%;
+    /* width: 460px; */
     height: 100vh;
+    
     align-items: center;
     justify-content: center;
     background: white;
@@ -15,7 +17,7 @@
      display: grid;
      grid-template-columns: repeat(4,68px);
      flex-direction: row;
-     background: #1f1e20;
+     background: #000000;
      padding: 20px;
      border-radius: 10px;
      
@@ -26,11 +28,11 @@ input{
     grid-column: span 4;
     height: 80px;
     width: 260px;
-    background-color: #9accd8;
-    box-shadow: inset  -5px  -5px 12px #ffffff, inset 5px 5px 12px rgba(0,0,0,0.2);
+    background-color: rgb(108, 150, 150);
+    box-shadow: inset  -5px  -5px 12px #b39b9b, inset 5px 5px 12px rgba(0,0,0,0.2);
     border: none;
     border-radius: 10px;
-    color: rgb(19, 18, 18);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: end;
     margin: auto;
@@ -43,8 +45,9 @@ input{
 button{
     height: 48px;
     width: 48px;
-   
-    background-color: #dee9e1;
+    background-color: rgb(36, 32, 32);
+    /* background-color: #dee9e1; */
+    color: white;
     border: none;
     border-radius: 20%;
     margin: 8px;
@@ -53,6 +56,7 @@ button{
 }
 .equal{
     width: 115px;
+    color: #000000;
     /* border-radius: 10px; */
     background-color: rgba(223, 209, 209, 0.479);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -60,10 +64,12 @@ button{
 .ac{
     background-color:rgba(172, 83, 83, 0.822);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
 }
 
 .back{
     background-color: rgba(199, 95, 95, 0.781);
+    color: #000000;
 }
 .head{
     
@@ -71,4 +77,7 @@ button{
     color: aliceblue;
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    border: 5px solid  rgba(45, 119, 119, 0.493); 
 }
