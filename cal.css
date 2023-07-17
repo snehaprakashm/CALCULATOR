@@ -23,6 +23,7 @@ p{
     font-size:4rem;
     text-align: right;
     border-radius: 10px;
+    
 }
 .button{
     background-color: rgb(46, 43, 43);
@@ -37,9 +38,16 @@ p{
     background-color: red;
 
 }
-.operator{
+/* .operator{
     background-color: rgb(73, 69, 69);
-}
+} */
 .button:hover{
 border: 5px solid  rgba(90, 122, 122, 0.459); ;
 }
+body{
+    overflow-x: hidden;
+}
+
+
+
+
